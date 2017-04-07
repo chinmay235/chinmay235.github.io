@@ -90,7 +90,13 @@
                 }
             });
             function changeImageToRandomImage() {
-                var images = ['chinmay235-chinmay-sahu-1.jpg', 'chinmay235-chinmay-sahu-2.jpg', 'chinmay235-chinmay-sahu-3.jpg', 'chinmay235-chinmay-sahu-4.jpg'];
+                var images = [
+                    'chinmay235-chinmay-sahu-1.jpg',
+                    'chinmay235-chinmay-sahu-2.jpg',
+                    'chinmay235-chinmay-sahu-3.jpg',
+                    'chinmay235-chinmay-sahu-4.jpg',
+                    'chinmay235-chinmay-sahu-5.jpg'
+                ];
                 var random = images[Math.floor(Math.random() * images.length)];
                 document.getElementById('myphoto').src = 'images/' + random;
             }
